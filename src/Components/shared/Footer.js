@@ -50,10 +50,10 @@ const Footer = () => {
                                 <ul>
                                     <strong>
                                         <Link to="/home"><li className="footer-menu">Home</li></Link>
-                                        <Link to="/services"> <li className="footer-menu">Services</li></Link>
+                                        <Link to="/viewAll"> <li className="footer-menu">Services</li></Link>
                                         <Link to="/about"><li className="footer-menu">About us</li></Link>
                                         <Link to="/contact"> <li className="footer-menu">Contact us</li></Link>
-                                        <Link to="/signup"><li className="footer-menu"> Sign up</li></Link>
+                                        <Link to="/login"><li className="footer-menu"> Sign up</li></Link>
                                     </strong>
                                 </ul>
 
