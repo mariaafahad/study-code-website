@@ -81,3 +81,23 @@ const fake = [
         fee: '120'
     }
 ]
+
+{/* <div class="select-reading-box">
+			<a href="https://www.tutorialspoint.com/effective_resume_writing.htm" title="Effective Resume Writing">
+				<img src="https://www.tutorialspoint.com/images/resume-writing.png" alt="Effective Resume Writing" title="Effective Resume Writing"/>
+			<div class="">Effective <br /><b>Resume Writing</b></div></a>
+		</div> */}
+
+
+//         <div class="select-reading-box">
+// 			<a href="https://www.tutorialspoint.com/effective_resume_writing.htm" title="Effective Resume Writing">
+// 				<img src="https://www.tutorialspoint.com/images/resume-writing.png" alt="Effective Resume Writing" title="Effective Resume Writing"/>
+// 			<div class="">Effective <br /><b>Resume Writing</b></div></a>
+// 		</div>
+// <div class="mui-col-md-2 mui-col-sm-6 mui-col-xs-6">
+// 		<div class="select-reading-box">
+// 			<a href="https://www.tutorialspoint.com/developers_best_practices/index.htm" title="Developer's Best Practices">
+// 				<img src="https://www.tutorialspoint.com/images/developers-best-practices.png" alt="Developer's Best Practices" title="Developer's Best Practices">
+// 			<div class="">Developers <br><b>Best Practices</b></div></a>
+// 		</div>
+// 	</div>

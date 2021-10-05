@@ -24,12 +24,14 @@ const SignIn = () => {
     )
 }
 
+/* for sign up page */
+
 const SignUp = () => {
     const [signIn, setSignIn] = useState(false);
     return (
         <div>
             <Header />
-            <h1 style={{ fontSize: "5rem" }} className="text-center my-5">Sign Up</h1>
+            <h1 style={{ fontSize: "5rem" }} className="text-center my-5">{signIn === true ? "Sign Up" : "Sign In"}</h1>
             {signIn == true ?
                 <div className="d-flex justify-content-center">
                     <form className="row g-3 w-100 container">
@@ -80,7 +82,7 @@ const SignUp = () => {
                 :
                 <SignIn />
             }
-            <p style={{ cursor: 'pointer' }} className="m-3 text-info" onClick={() => setSignIn(!signIn)}>{signIn === true ? "Have an account? Please Sign In" : "Don't have an account yet?Please Sign In"}</p>
+            <h3 style={{ cursor: 'pointer' }} className="m-3 text-info text-center mb-5" onClick={() => setSignIn(!signIn)}>{signIn === true ? "Have an account? Please Sign In" : "Don't have an account yet?Please Sign In"}</h3>
             <Footer />
         </div>
     );
