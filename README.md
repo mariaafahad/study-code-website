@@ -1,4 +1,4 @@
-GitHub repository: https://github.com/ProgrammingHeroWC4/review-website-mariaafahad
+GitHub repository: https://github.com/mariaafahad/study-code-website
 
 Live link: https://maria-study-code.netlify.app/
 
